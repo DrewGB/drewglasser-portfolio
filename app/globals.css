@@ -4,12 +4,14 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  /* === Brand Color Palette === */
-  --color-brand-accent: #6366F1;         /* Indigo 500 */
-  --color-brand-accent-hover: #4F46E5;   /* Indigo 600 */
-  --color-brand-bg: #F9FAFB;             /* Very light gray */
-  --color-brand-text: #111827;           /* Gray 900 */
-  --color-brand-muted: #E5E7EB;          /* Gray 200 */
+  --color-brand-primary: #123456;
+  --color-brand-accent: #6366F1;
+  --color-brand-accent-hover: #4F46E5;
+  --color-brand-bg: #F8F6F0;
+  --color-brand-text: #111827;
+  --color-brand-muted: #E5E7EB;
+  --color-brand-card: #1C2C45;
+  --color-brand-highlight: #AFCBFF;
 
   /* === Typography === */
   --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Saskpoly Paradocs",
+    "description": "A real-world project built with Blazor for paramedic students training at saskatchewan polytechnic — featuring flowcharts, drug monographs, and instructor tools.",
+    "image": "/images/saskpoly-paradocs.png",
+    "link": "https://github.com/yourname/project-paramedic",
+    "technologies": "C#, Blazor, Entity Framework, SQLite, Bootstrap"
+  },
+  {
+    "name": "ForkedIn",
+    "description": "A full-stack recipe social network built with Next.js, Express, and PostgreSQL. Includes auth using httpOnly JsonWebTokens, image upload, and user profiles.",
+    "image": "/images/forkedin.png",
+    "link": "https://github.com/yourname/forkedin",
+    "technologies": "Next.js, Express, PostgreSQL, Tailwind CSS"
+  },
+  {
+    "name": "Steganography Program",
+    "description": "A C program for hiding files inside of bitmap images by manipulating the bits in the pixels.",
+    "image": "/images/memory-manager.png",
+    "link": "https://github.com/yourname/cosc292-memory",
+    "technologies": "C"
+  }
+]
