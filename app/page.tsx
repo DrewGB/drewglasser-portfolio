@@ -17,7 +17,7 @@ export default function Home() {
                     </div>
                 </div>
           </div>
-          <main className="overflow-x-hidden min-h-screen w-auto bg-brand-bg text-brand-text lg:pl-8 lg:pr-8 pt-2">
+          <main className="overflow-x-hidden min-h-screen bg-brand-bg text-brand-text lg:pl-2 lg:pr-2 xl:pl-8 xl:pr-8 pt-2">
               <div className={"flex flex-col lg:flex-row justify-center items-start max-w-6xl lg:max-w-100 mx-auto gap-8"}>
                   <div className="mx-auto flex flex-col lg:flex-row items-start">
                       <div className="bg-brand-primary text-white w-full lg:w-5/9 p-4 mt-4 lg:rounded-lg lg:shadow-xl mb-3 lg:mb-6">
@@ -65,7 +65,7 @@ export default function Home() {
                           <img
                               src="/images/profile2.jpg"
                               alt="Photo of Drew Glasser-Brown"
-                              className="w-25 h-25 lg:w-50 lg:h-50 object-cover rounded-full shadow-xl ring-2 ring-brand-muted"
+                              className="w-25 h-25 md:w-30 md:h-30 lg:w-50 lg:h-50 object-cover rounded-full shadow-xl ring-2 ring-brand-muted"
                           />
                       </div>
                   </div>
