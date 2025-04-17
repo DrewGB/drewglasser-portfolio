@@ -1,25 +1,30 @@
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Home() {
   return (
       <>
+          <Head>
+              <title>Home - Drew Glasser</title>
+          </Head>
           {/* jumbotron */}
-          <div id={"jumbo"} className={"p-15 w-auto p-6 mx-auto relative text-white flex items-center justify-center"}>
+          <div id={"jumbo"} className={"overflow-x-hidden py-4 p-3 md:p-12 sm:p-16 w-auto mx-auto relative text-white flex items-center justify-center"}>
               <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 z-10"></div>
                 <div className="relative text-white z-20 flex justify-between items-start fa-align-center">
-                    <div className="w-80 rounded-2xl">
+                    <div className="w-full sm:max-w-3xl md:max-w-full rounded-2xl">
                         <h1 className="text-4xl">I design accessible systems, solve real problems, and love what I do.</h1>
                         <p className={"text-lg mt-1"}>A software developer from Saskatoon, Saskatchewan.</p>
                     </div>
                 </div>
           </div>
-          <main className="min-h-screen w-auto bg-brand-bg text-brand-text pl-8 pr-8 pt-2">
-              <div className={"flex justify center max-w my-auto"}>
-                  <div className="mx-auto flex flex-col md:flex-row items-start">
-                      <div className={"bg-brand-primary text-white w-50 p-4 my-4 rounded-lg shadow-xl"}>
+          <main className="overflow-x-hidden min-h-screen w-auto bg-brand-bg text-brand-text lg:pl-8 lg:pr-8 pt-2">
+              <div className={"flex flex-col lg:flex-row justify-center items-start max-w-6xl lg:max-w-100 mx-auto gap-8"}>
+                  <div className="mx-auto flex flex-col lg:flex-row items-start">
+                      <div className="bg-brand-primary text-white w-full lg:w-5/9 p-4 mt-4 lg:rounded-lg lg:shadow-xl mb-3 lg:mb-6">
                           <h2 className={"text-3xl font-bold"}>Who am I?</h2>
                           <p className={"text-xl mt-1"}>
-                              My name is Drew Glasser-Brown. I’m a software developer based in Saskatoon, currently completing my Computer Systems
+                              My name is Drew Glasser-Brown. I’m a software developer based in Saskatoon, currently
+                              completing my Computer Systems
                               Technology
                               diploma at Saskatchewan Polytechnic.
                           </p>
@@ -56,11 +61,11 @@ export default function Home() {
                                 className={"bg-indigo-500 hover:bg-indigo-600 text-white font-semibold rounded-lg p-1"}>See
                               my work</Link>
                       </div>
-                      <div className="ml-8 my-4 flex flex-col items-center">
+                      <div className="mt-4 lg:ml-4 mb-3 lg:mb-6 flex justify-center lg:justify-start w-8/9 mx-auto lg:w-4/9">
                           <img
                               src="/images/profile2.jpg"
                               alt="Photo of Drew Glasser-Brown"
-                              className="w-50 h-50 object-cover rounded-full shadow-xl ring-2 ring-brand-muted"
+                              className="w-25 h-25 lg:w-50 lg:h-50 object-cover rounded-full shadow-xl ring-2 ring-brand-muted"
                           />
                       </div>
                   </div>

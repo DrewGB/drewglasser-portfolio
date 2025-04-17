@@ -4,20 +4,23 @@
     "description": "A full-featured Blazor web app built for paramedic student training at Saskatchewan Polytechnic. I collaborated with a development team to create tools for instructors to build dynamic care plans, preview student-facing documents, and link drug monographs. The system renders interactive flowcharts in real time.",
     "image": "/images/saskpoly-paradocs.png",
     "link": "https://github.com/yourname/project-paramedic",
-    "technologies": "C#, Blazor, Entity Framework, SQLite, Bootstrap"
+    "technologies": "C#, Blazor, Entity Framework, SQLite, Bootstrap",
+    "private": true
   },
   {
     "name": "ForkedIn",
     "description": "A full-stack recipe-sharing social network built with Next.js and Express. The app features secure JWT authentication (via httpOnly cookies), user profiles, and image uploads with Cloudinary. I built the backend API and authentication logic, with a focus on security and scalability.",
     "image": "/images/forkedin.png",
     "link": "https://github.com/DrewGB/forkedin",
-    "technologies": "Next.js, Express, PostgreSQL, Tailwind CSS"
+    "technologies": "Next.js, Express, PostgreSQL, Tailwind CSS",
+    "private": false
   },
   {
     "name": "Steganography Program",
     "description": "A low-level C program that hides files inside bitmap images using bitwise operations and manual dynamic memory allocation. I implemented custom file parsing and embedded payloads by manipulating the least significant bits of each pixel. Designed for accuracy, binary control, and raw memory efficiency.",
     "image": "/images/dynamic-steganography.png",
     "link": "https://github.com/DrewGB/dynamic-steganography",
-    "technologies": "C"
+    "technologies": "C",
+    "private": false
   }
 ]
