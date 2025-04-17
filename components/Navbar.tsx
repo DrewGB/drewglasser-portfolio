@@ -13,17 +13,17 @@ export default function Navbar() {
             <div>
                 <ul className="flex gap-4 p-2 mr-4">
                     <li>
-                        <Link href="/projects" className="transition-colors text-xl">
+                        <Link href="/projects" className="hover:text-brand-accent transition-colors text-xl">
                             Projects
                         </Link>
                     </li>
                     <li>
-                        <Link href="/resume" className=" transition-colors text-xl">
+                        <Link href="/resume" className="hover:text-brand-accent transition-colors text-xl">
                             Resume
                         </Link>
                     </li>
                     <li>
-                        <Link href="/contact" className="transition-colors text-xl">
+                        <Link href="/contact" className="hover:text-brand-accent transition-colors text-xl">
                             Contact
                         </Link>
                     </li>

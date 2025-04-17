@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail } from "lucide-react"
 
 export default function Footer() {
     return (
-        <footer className="bg-brand-primary text-white px-6 py-4">
+        <footer className="bg-brand-primary text-white px-6 py-3">
             <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8 text-center sm:text-left">
                 {/* Navigation links */}
                 <div>
@@ -22,8 +22,10 @@ export default function Footer() {
                 </div>
 
                 {/* Centered copyright */}
-                <div className="flex items-center justify-center sm:col-span-1">
+                <div className="flex flex-col items-center justify-center sm:col-span-1">
                     <p className="text-sm">&copy; {new Date().getFullYear()} Drew Glasser-Brown</p>
+                    <br/>
+                    <p className="text-md">Built with Next.js. View the <a className={"underline"} href={"https://github.com/DrewGB/drewglasser-portfolio"}>repo</a>. </p>
                 </div>
 
                 {/* Social media */}

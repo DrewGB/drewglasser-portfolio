@@ -22,6 +22,11 @@
   --spacing: 1rem;
 }
 
+#jumbo {
+  background: url('../public/images/pexels-danny-meneses-340146-943096.jpg') no-repeat;
+  background-size: cover;
+}
+
 /* === Base Theme Styling === */
 body {
   background-color: var(--color-brand-bg);

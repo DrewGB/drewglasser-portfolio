@@ -1,3 +1,5 @@
+import ImageModal from "@/components/ImageModal";
+
 export default function ProjectCard({ project }:
 {
     project:
@@ -11,9 +13,9 @@ export default function ProjectCard({ project }:
 })
 {
     return (
-        <div className="bg-brand-primary text-white p-4 rounded-lg shadow-xl">
-            <img src={project.image} alt={project.name} className="rounded-lg mb-4" />
-            <h2 className="text-2xl font-bold">{project.name}</h2>
+        <div className="bg-brand-primary text-white p-4 rounded-lg shadow-xl mb-3">
+            <ImageModal src={project.image} alt={project.name + " image"} />
+            <h2 className="text-2xl font-bold mt-1">{project.name}</h2>
             <p className="text-lg mt-2">{project.description}</p>
             <p className={"text-lg mt-2"}>Technologies: {project.technologies}</p>
             <br/>
