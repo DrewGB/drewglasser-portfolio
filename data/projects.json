@@ -3,9 +3,17 @@
     "name": "Saskpoly Paradocs",
     "description": "A full-featured Blazor web app built for paramedic student training at Saskatchewan Polytechnic. I collaborated with a development team to create tools for instructors to build dynamic care plans, preview student-facing documents, and link drug monographs. The system renders interactive flowcharts in real time.",
     "image": "/images/saskpoly-paradocs.png",
-    "link": "https://github.com/yourname/project-paramedic",
+    "link": "",
     "technologies": "C#, Blazor, Entity Framework, SQLite, Bootstrap",
     "private": true
+  },
+  {
+    "name": "GCP DevOps Sandbox",
+    "description": "Developed a containerized FastAPI application to simulate real-world DevOps practices. Deployed to Google Cloud Platform using App Engine and orchestrated locally in a Minikube cluster. Integrated Prometheus and Grafana (via Helm) to expose and visualize custom application metrics. Implemented a Jenkins-based CI/CD pipeline to automate Docker builds and Kubernetes deployments. This project reinforced key DevOps principles, including observability, continuous delivery, and infrastructure as code.",
+    "image": "/images/devops-grafana-ss.png",
+    "link": "https://github.com/DrewGB/gcp-devops-sandbox",
+    "technologies": "Python, FastAPI, Google Cloud Platform, Docker, Kubernetes (Minikube), Prometheus, Grafana, Jenkins, and Terraform",
+    "private": false
   },
   {
     "name": "ForkedIn",

@@ -37,19 +37,28 @@ export default function Resume() {
                                 <li>Java</li>
                                 <li>C#</li>
                                 <li>C</li>
+                                <li>Python</li>
                                 <li>TypeScript</li>
+                                <li>Kubernetes (Minikube)</li>
+                                <li>Grafana</li>
                             </ul>
                             <ul>
                                 <li>Next.js</li>
                                 <li>Blazor</li>
                                 <li>Express</li>
                                 <li>Node.js</li>
+                                <li>FastAPI</li>
+                                <li>Google Cloud Platform</li>
+                                <li>Jenkins</li>
                             </ul>
                             <ul>
                                 <li>Tailwind CSS</li>
                                 <li>Bootstrap</li>
                                 <li>PostgreSQL</li>
                                 <li>Entity Framework</li>
+                                <li>Docker</li>
+                                <li>Prometheus</li>
+                                <li>Terraform</li>
                             </ul>
                         </div>
                     </section>
@@ -61,7 +70,7 @@ export default function Resume() {
                             <p className="font-medium">
                                 Computer Systems Technology Diploma
                             </p>
-                            <p>Saskatchewan Polytechnic — Graduating June 2025</p>
+                            <p>Saskatchewan Polytechnic — Graduated June 2025</p>
                         </div>
                     </section>
 
@@ -71,11 +80,20 @@ export default function Resume() {
                         <div className="text-sm space-y-4">
                             <div>
                                 <p className="font-medium">Project Paramedic – Saskpoly Paradocs</p>
-                                <p>Full-stack Blazor application for paramedic training. Built care plan flowcharts, drug monograph linking, and preview tools. Led flowchart rendering logic with MermaidJS and EF integration.</p>
+                                <p>Full-stack Blazor application for paramedic training. Built care plan flowcharts,
+                                    drug monograph linking, and preview tools. Led flowchart rendering logic with
+                                    MermaidJS and EF integration.</p>
+                            </div>
+                            <div>
+                                <p className="font-medium">GCP DevOps Sandbox</p>
+                                <p>Containerized FastAPI app simulating DevOps workflows.
+                                    Deployed to GCP, monitored with Prometheus & Grafana, and orchestrated in Minikube.
+                                    Built CI/CD pipeline with Jenkins and explored IaC using Terraform.</p>
                             </div>
                             <div>
                                 <p className="font-medium">ForkedIn (Social Recipe App)</p>
-                                <p>Next.js + Express full-stack app with JWT auth, Cloudinary image uploads, PostgreSQL integration, and profile/recipe UI.</p>
+                                <p>Next.js + Express full-stack app with JWT auth, Cloudinary image uploads, PostgreSQL
+                                    integration, and profile/recipe UI.</p>
                             </div>
                         </div>
                     </section>
