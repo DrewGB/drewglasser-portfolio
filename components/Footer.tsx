@@ -41,7 +41,7 @@ export default function Footer() {
                         >
                             <Github className="size-3"/>
                         </a>
-                        <a
+                        {/*<a
                             href="https://www.linkedin.com/in/drew-glasser-brown-480245160/"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -49,7 +49,7 @@ export default function Footer() {
                             aria-label="LinkedIn"
                         >
                             <Linkedin className="size-3"/>
-                        </a>
+                        </a>*/}
                         <a
                             href="mailto:drewglasser@hotmail.com"
                             className="hover:text-brand-accent transition-colors"
